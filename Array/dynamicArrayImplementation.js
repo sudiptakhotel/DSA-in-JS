@@ -54,7 +54,7 @@ class DynamicArray{
    
     }
     print(){
-        for(let i=0;i<this.arr.length;i++){
+        for(let i=0;i<this.size;i++){
             console.log(this.arr[i]);
         }
         // console.log(`size = ${this.size} , capacity = ${this.capacity}`);
@@ -98,6 +98,7 @@ dobj.push(70);
 dobj.push(80);
 
 dobj.pop();
+dobj.print();
 dobj.length();
 dobj.back();
 dobj.at(6);
